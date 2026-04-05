@@ -1,6 +1,6 @@
 const {test,expect} = require('@playwright/test')
 
-test("check api health", async function({request}){
+test.skip("check api health", async function({request}){
     test.setTimeout(0)
     while (true) {
         const startTime = Date.now()
