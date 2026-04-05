@@ -1,0 +1,38 @@
+[
+    {
+        "testcase":"booking with breakfast",
+        "firstname": "Tara",
+        "lastname": "Maa",
+        "totalprice": 500,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2026-04-05",
+            "checkout": "2026-04-07"
+        },
+        "additionalneeds": "Breakfast"
+    },
+    {
+        "testcase":"booking with lunch",
+        "firstname": "Manorama",
+        "lastname": "Sahoo",
+        "totalprice": 250,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2026-04-05",
+            "checkout": "2026-04-06"
+        },
+        "additionalneeds": "Lunch"
+    },
+    {
+        "testcase":"booking with dinner",
+        "firstname": "Claude",
+        "lastname": "Code",
+        "totalprice": 450,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2026-04-05",
+            "checkout": "2026-04-06"
+        },
+        "additionalneeds": "Dinner"
+    }
+]
