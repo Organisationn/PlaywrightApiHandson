@@ -3,7 +3,7 @@ class ApiHelper{
         this.request = request
     }
     async createBooking(payload){
-        const response = await this.request.post(`${process.env.BASE_URL}/booking`,
+        const response = await this.request.post(`${process.env.BASE_URL_API}/booking`,
             {
                 header:{"Content-Type":"application/json"},
                 data:payload
@@ -11,7 +11,7 @@ class ApiHelper{
         return response
     }
     async getBooking(bookingId){
-        const response = await this.request.get(`${process.env.BASE_URL}/booking/`+bookingId)
+        const response = await this.request.get(`${process.env.BASE_URL_API}/booking/`+bookingId)
         return response
     }
 }
